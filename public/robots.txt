@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /features
+Allow: /pricing
+Disallow: /auth/*
+Disallow: /api/*
+
+# Sitemap
+Sitemap: https://linkify.app/sitemap.xml 
