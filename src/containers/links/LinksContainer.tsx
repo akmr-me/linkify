@@ -26,7 +26,6 @@ export default function LinksContainer() {
   const user = useStore((state) => state.user);
 
   useEffect(() => {
-    console.log("Trigger fetch:", triggerFetch, user);
     fetchLinks(Number(page), Number(limit));
   }, [page, limit, triggerFetch, user]);
 
@@ -36,7 +35,6 @@ export default function LinksContainer() {
         page,
         limit
       );
-      console.log("Fetched links:", response);
       setHasNextPage(response.hasMore);
       setHasPreviousPage(page > 1);
       setTotalPages(response.totalPages);
@@ -71,7 +69,6 @@ export default function LinksContainer() {
   };
 
   const handleDeleteLink = async (id: string) => {
-    console.log("Deleting link with ID:", id);
     try {
       await linksApi.deleteLink(id);
       handleTriggerFetch(); // Trigger re-fetch

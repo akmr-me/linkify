@@ -29,8 +29,8 @@ A production-ready, full-stack URL shortening and link management platform built
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/akmr/lnkfy.git
-   cd lnkfy
+   git clone https://github.com/akmr-me/linkify.git
+   cd linkify
    ```
 
 2. **Install dependencies**
@@ -172,9 +172,9 @@ The app can be deployed to any platform that supports Node.js:
 | `TURNSTILE_SITE_KEY`   | Cloudflare Turnstile site key | ✅       |
 | `NEXT_PUBLIC_APP_URL`  | Your app's public URL         | ✅       |
 
-## 📊 API Endpoints
+<!-- ## 📊 API Endpoints -->
 
-### Authentication
+<!-- ### Authentication
 
 - `POST /api/auth/register` - User registration
 - `POST /api/auth/login` - User login
@@ -185,9 +185,9 @@ The app can be deployed to any platform that supports Node.js:
 - `GET /api/links` - Get user's links
 - `POST /api/links` - Create new short link
 - `DELETE /api/links/[id]` - Delete a link
-- `GET /api/links/[short]` - Redirect to original URL
+- `GET /api/links/[short]` - Redirect to original URL -->
 
-## 🤝 Contributing
+<!-- ## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -195,7 +195,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
 3. **Commit your changes** (`git commit -m 'Add amazing feature'`)
 4. **Push to the branch** (`git push origin feature/amazing-feature`)
-5. **Open a Pull Request**
+5. **Open a Pull Request** -->
 
 ## 📝 License
 
@@ -207,7 +207,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Email: amresh@akmr.me
 - Portfolio: [https://portfolio.akmr.me](https://portfolio.akmr.me)
-- GitHub: [@akmr](https://github.com/akmr)
+- GitHub: [@akmr](https://github.com/akmr-me)
 
 ## 🙏 Acknowledgments
 
@@ -219,9 +219,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/akmr/lnkfy/issues)
+- **Issues**: [GitHub Issues](https://github.com/akmr-me/linkify/issues)
 - **Email**: amresh@akmr.me
-- **Documentation**: [Wiki](https://github.com/akmr/lnkfy/wiki)
+- **Documentation**: [Wiki](https://github.com/akmr-me/linkify/wiki)
 
 ---
 
